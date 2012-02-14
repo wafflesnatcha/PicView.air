@@ -1,0 +1,36 @@
+
+
+body, html { 
+	overflow: hidden; 
+	width: 100%; 
+	height: 100%; 
+	background: #333;
+	margin: 0; 
+	padding: 0;
+	-webkit-user-select: none;
+	cursor: default;
+	text-align: center;
+}
+body {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+*:focus { outline: 0; }
+
+#drop-target {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 100;
+	background: transparent;
+}
+
+
+
+
